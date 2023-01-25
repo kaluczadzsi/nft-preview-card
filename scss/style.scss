@@ -2,14 +2,39 @@
 @import 'reset';
 
 body {
-  height: 100vh;
+  // height: 100vh;
   font-family: $ff-base;
   font-size: $fs-base;
   display: grid;
   place-content: center;
+  background-color: $main-bg;
+}
+
+.flex {
+  display: flex;
+}
+
+.clr-white {
+  color: #fff;
+}
+
+.clr-soft-blue {
+  color: $soft-blue;
 }
 
 .card {
+  background-color: $card-bg;
   width: 23rem;
-  border: 1px solid pink;
+  padding: 1rem;
+
+  .card-img {
+    margin-bottom: 1rem;
+  }
+
+  .card-content {
+    .flex {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
 }
