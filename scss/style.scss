@@ -30,13 +30,14 @@ body {
 .card {
   background-color: $card-bg;
   width: 20rem;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 15px;
 
   .card-img {
     margin-bottom: 1.2rem;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
   }
 
   .card-content {
@@ -75,6 +76,12 @@ body {
     h1 {
       font-size: 1.3rem;
       // font-weight: 600;
+
+      &:hover {
+        cursor: pointer;
+        transition: color 0.3s;
+        color: $cyan;
+      }
     }
 
     p {
@@ -103,6 +110,12 @@ body {
 
       span {
         font-weight: 100;
+        transition: color 0.3s;
+      }
+
+      span:hover {
+        cursor: pointer;
+        color: $cyan;
       }
     }
   }

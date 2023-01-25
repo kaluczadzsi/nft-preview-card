@@ -57,13 +57,14 @@ body {
 .card {
   background-color: hsl(216deg, 50%, 16%);
   width: 20rem;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 15px;
 }
 .card .card-img {
   margin-bottom: 1.2rem;
   border-radius: 10px;
   overflow: hidden;
+  cursor: pointer;
 }
 .card .card-content .flex {
   flex-direction: column;
@@ -94,6 +95,11 @@ body {
 .card .card-content h1 {
   font-size: 1.3rem;
 }
+.card .card-content h1:hover {
+  cursor: pointer;
+  transition: color 0.3s;
+  color: hsl(178deg, 100%, 50%);
+}
 .card .card-content p {
   font-size: 1rem;
   line-height: 1.5;
@@ -116,4 +122,9 @@ body {
 }
 .card .card-content footer span {
   font-weight: 100;
+  transition: color 0.3s;
+}
+.card .card-content footer span:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
 }/*# sourceMappingURL=style.css.map */
