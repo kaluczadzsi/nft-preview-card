@@ -1,2 +1,15 @@
 @import 'variables';
 @import 'reset';
+
+body {
+  height: 100vh;
+  font-family: $ff-base;
+  font-size: $fs-base;
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  width: 23rem;
+  border: 1px solid pink;
+}

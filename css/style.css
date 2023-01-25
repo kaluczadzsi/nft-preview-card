@@ -27,3 +27,16 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+body {
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  width: 23rem;
+  border: 1px solid pink;
+}/*# sourceMappingURL=style.css.map */
